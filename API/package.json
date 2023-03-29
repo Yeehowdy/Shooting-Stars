@@ -1,0 +1,35 @@
+{
+  "name": "sdi-blended-full-stack-project-scaffold",
+  "version": "1.0.0",
+  "description": "Add any files you see fit for your application to work. Make sure to change this README to include a meaningful description of your application and how to get it started.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "npx knex migrate:rollback --all && npx knex migrate:latest && npx knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeehowdy/sdi-blended-full-stack-project-scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeehowdy/sdi-blended-full-stack-project-scaffold/issues"
+  },
+  "homepage": "https://github.com/Yeehowdy/sdi-blended-full-stack-project-scaffold#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  }
+}
+
+

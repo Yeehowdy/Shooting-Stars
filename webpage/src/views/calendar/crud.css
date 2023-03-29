@@ -1,0 +1,76 @@
+.crud-container {
+  background-color: #212529;
+  color: aliceblue;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.toggle {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.toggle-row {
+  height: 30px; 
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.toggle-col {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.toggle-col input {
+  height: 25px;
+  width: 100px;
+}
+
+.toggle-col label {
+  height: 25px;
+  width: 100px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  
+}
+
+.form-row {
+  margin: 10px;
+}
+
+.form-col {
+  display: flex;
+  justify-content: center;
+  margin-left: -17px;
+}
+
+.input-wrapper {
+  float: left;
+  width: 200px;
+}
+
+input, label, select {
+  display: block;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+.crud-button {
+  border: solid 1px aliceblue;
+  border-radius: 5px;
+  background-color: #212529;
+  height: 50px;
+  width: 80px;
+  color: aliceblue;
+  margin-left: 30px;
+}

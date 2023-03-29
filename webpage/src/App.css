@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.upcomingLaunchCard{
+  text-align: left;
+  width: 100%;
+  background-color: rgb(18, 79, 107);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upcomingLaunchCard:hover{
+  scale: 1.01;
+}
+
+.upcomingLaunchesDiv{
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.cardImage{
+  height: 8rem;
+  width: 9rem;
+}
+.pagination{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #19355f;}
+
+.upcomingLaunchesHeader{
+  color:aliceblue
+}
+
+.card-text{
+  color: aliceblue;
+}
+
+.card-title{
+  color: aliceblue;
+}
+
+.extra-info-title{
+  font-weight: bold;
+}
+
+.UpcomingLaunches{
+  padding-top: 7px;
+}
+
+
+.calendarHeader{
+  border-bottom: solid;
+  border-top: solid;
+  text-align: center;
+}
+
+.loginDiv{
+  padding-top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.loginForm{
+width: 25%;
+border-radius: 25px;
+background-color: #212529;
+color:aliceblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 2rem;
+}
+
+.accordion-button{
+  padding:8px
+}
+.loginButton{
+  border: solid 1px aliceblue;
+  border-radius: 5px;
+  background-color: #212529;
+  height: 50px;
+  width: 80px;
+  color: aliceblue;
+}
+
+.loginButton:hover{
+  background-color: aliceblue !important;
+  color: #212529 !important;
+}
